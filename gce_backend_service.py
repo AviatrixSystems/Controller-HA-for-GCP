@@ -191,7 +191,7 @@ class BackendService(object):
     def create_backend_services(self):
         ''' create backend-services '''
         cmd = 'gcloud compute backend-services create {} ' + \
-              '--https-health-check {} --protocol {} ' + \
+              '--https-health-checks {} --protocol {} ' + \
                 '--format json'
         cmd = cmd.format(self.svc_name,
                          self.health_name,
