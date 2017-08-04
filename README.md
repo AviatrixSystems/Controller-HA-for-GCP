@@ -13,7 +13,7 @@ The script uses GCE backend monitoring and restart the controller instance if a 
  
 usage:
 
-python gce_backend_service.py <instance name> <instance zone> <project credentials>
+python gce_backend_service.py instance-name instance-zone project-credentials
 
 Eg:
 
